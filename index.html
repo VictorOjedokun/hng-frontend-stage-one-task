@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HNG Profile - Frontend Task</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Frontend Track</h1>
+    </header>
+    <main class="main">
+        <section class="profile-card">
+            <div class="profile">
+                <img src="assets/victor.jpeg" alt="profileimage" data-testid="slackDisplayImage">
+                <h2 data-testid="slackUserName"><a href="https://github.com/VictorOjedokun" data-testid="githubURL">Xahavi</a></h2>
+            </div>
+            <div class="current-info">
+                <p data-testid="currentDayOfTheWeek"></p>
+                <p data-testid="currentUTCTime"></p>
+                <p data-testid="currentDate"></p>
+                <p data-testid="myTrack" class="myTrack">My Track: Frontend Development</p>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <a href="https://github.com/VictorOjedokun" data-testid="githubURL">Visit My GitHub</a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
