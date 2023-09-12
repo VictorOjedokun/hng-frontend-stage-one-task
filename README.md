@@ -7,7 +7,7 @@ This simple webpage is designed to showcase specific personal and real-time data
 
 ## Demo
 
-You can view a live demo of this project [here](https://xahavi-hng-frontend-stage-one-task.vercel.app).
+You can view a live demo of this project [here](https://victor-first-hng-task.vercel.app).
 
 ## Features
 
